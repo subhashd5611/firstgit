@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            background-color: aquamarine;
+            text-align: center;
+        }
+        button{
+            background-color: black;
+            color: white;
+            box-shadow: 1px;
+        }
+        div{
+            border: 2px solid rgb(207, 157, 157);
+            width: 50%;
+            border-radius: 5px;
+            padding: 30px;
+            /* margin: 100px 100px 100px 200px; */
+            margin: auto;
+            box-shadow: 2px 5px #c5bfbf;
+        }
+    </style>
+<body>
+<div>
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='bulboff.gif'">Turn off the light</button>
+</div>
+</body>
+</html>
